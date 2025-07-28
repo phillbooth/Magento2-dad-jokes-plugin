@@ -1,0 +1,9 @@
+<?php
+/**
+ * @var \Daz\DadJoke\Block\Joke $block
+ */
+?>
+<div class="dad-joke-container" style="text-align: center; padding: 20px; margin: 10px auto; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9;">
+    <p style="font-style: italic; font-size: 1.2em;">"<?= $block->escapeHtml($block->getRandomJoke()) ?>"</p>
+    <p style="font-size: 0.9em; color: #555;">- A Dad</p>
+</div>
